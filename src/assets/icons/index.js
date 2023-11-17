@@ -1,3 +1,8 @@
+import python from './python.svg'
+import java from './java.svg'
+import mysql from './mysql.svg'
+import tensorflow from './tensorflow.svg'
+import pytorch from './pytorch.svg'
 import css from './css.svg'
 import express from './express.svg'
 import git from './git.svg'
@@ -28,6 +33,11 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 
 export {
+    python,
+    java,
+    mysql,
+    tensorflow,
+    pytorch,
     css,
     express,
     git,
