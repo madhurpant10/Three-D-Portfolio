@@ -107,7 +107,7 @@ const About = () => {
 
       <hr className='border-slate-200' />
 
-      <CTA />
+      <CTA message={<p className='cta-text'>Let&apos;s Connect!</p>}/>
     </section>
   );
 };

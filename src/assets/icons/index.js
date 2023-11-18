@@ -31,6 +31,9 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import notion from './notion.svg'
+import fifa from './fifa.svg'
+import kaggle from './kaggle.svg'
 
 export {
     python,
@@ -65,5 +68,8 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    notion,
+    fifa,
+    kaggle
 }

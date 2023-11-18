@@ -60,7 +60,7 @@ const Home = () => {
                 <Sky isRotating={isRotating}/>
                 <Island 
                 position={islandPosition} scale={islandScale} isRotating={isRotating} setIsRotating={setIsRotating} setCurrentStage={setCurrentStage}/>
-                <Plane  planeScale={planeScale} planePosition={planePosition} isRotating={isRotating} rotation={[0, 20, 0]}/>
+                <Plane  scale={planeScale} position={planePosition} isRotating={isRotating} rotation={[0, 20, 0]}/>
             </Suspense>
         </Canvas>
     </section>

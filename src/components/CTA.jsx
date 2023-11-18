@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
 
-const CTA = () => {
+const CTA = ({message}) => {
   return (
     <section className='cta'>
-      <p className='cta-text'>
-        Let&apos;s Connect!
-      </p>
+        {message}
       <Link to='/contact' className='btn'>
         Contact
       </Link>

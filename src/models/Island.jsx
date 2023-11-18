@@ -50,13 +50,13 @@ const Island = ({isRotating, setIsRotating, setCurrentStage, ...props}) => {
         if (event.key === "ArrowLeft") {
           if (!isRotating) setIsRotating(true);
     
-          islandRef.current.rotation.y += 0.01 * Math.PI;
-          rotationSpeed.current = 0.007;
+          islandRef.current.rotation.y += 0.012 * Math.PI;
+          rotationSpeed.current = 0.01;
         } else if (event.key === "ArrowRight") {
           if (!isRotating) setIsRotating(true);
     
-          islandRef.current.rotation.y -= 0.01 * Math.PI;
-          rotationSpeed.current = -0.007;
+          islandRef.current.rotation.y -= 0.012 * Math.PI;
+          rotationSpeed.current = -0.01;
         }
       };
 
@@ -65,6 +65,45 @@ const Island = ({isRotating, setIsRotating, setCurrentStage, ...props}) => {
           setIsRotating(false);
         }
       };
+
+
+
+//       let isAnimating = false;
+// let previousTimestamp = null;
+
+// const animateRotation = (timestamp) => {
+//   if (!previousTimestamp) {
+//     previousTimestamp = timestamp;
+//   }
+  
+//   const delta = timestamp - previousTimestamp;
+//   const rotationSpeed = 0.001; // Adjust this value as needed
+
+//   islandRef.current.rotation.y += rotationSpeed * delta;
+
+//   previousTimestamp = timestamp;
+
+//   if (isAnimating) {
+//     requestAnimationFrame(animateRotation);
+//   }
+// };
+
+// const handleKeyDown = (event) => {
+//   if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+//     if (!isAnimating) {
+//       isAnimating = true;
+//       requestAnimationFrame(animateRotation);
+//     }
+//   }
+// };
+
+// const handleKeyUp = (event) => {
+//   if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+//     isAnimating = false;
+//     previousTimestamp = null;
+//   }
+// };
+
      
 
       useEffect(() => {

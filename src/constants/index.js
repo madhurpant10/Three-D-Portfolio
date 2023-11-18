@@ -23,7 +23,10 @@ import {
     threads,
     typescript,
     tensorflow,
-    pytorch
+    pytorch,
+    notion,
+    fifa,
+    kaggle
 } from "../assets/icons";
 
 export const skills = [
@@ -129,5 +132,55 @@ export const experiences = [
             "Web Scraped the necessary data using Python and Selenium for analytical and Machine Learning applications.",
             "Improved the usability and user experience of the product's front-end through React.",
         ],
+    }
+];
+
+export const socialLinks = [
+    {
+        name: 'Contact',
+        iconUrl: contact,
+        link: '/contact',
+    },
+    {
+        name: 'GitHub',
+        iconUrl: github,
+        link: 'https://github.com/madhurpant10',
+    },
+    {
+        name: 'LinkedIn',
+        iconUrl: linkedin,
+        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+    }
+];
+
+export const projects = [
+    {
+        iconUrl: notion,
+        theme: 'btn-back-black',
+        name: 'Full Stack Notion Clone',
+        description: 'Built using Next JS providing dynamic database and intuitive file management making it an ideal tool for managing your notes, projects, and tasks.',
+        link: 'https://github.com/madhurpant10/Notion-Website-Fullstack',
+    },
+    {
+        iconUrl: fifa,
+        theme: 'btn-back-red',
+        name: 'FIFA ML Web App',
+        description: 'A Web Application providing dynamic player recommendations, accurate match predictions and interactive visualizations.',
+        link: 'https://github.com/madhurpant10/FIFA-World-Cup-ML-WebApp'
+    },
+    {
+        iconUrl: kaggle,
+        theme: 'btn-back-blue',
+        name: 'Kaggle Portfolio',
+        description: 'My Kaggle Profile ranked 200 globally, showcasing a collection of high quality Machine Learning and Data Science projects.',
+        link: 'https://www.kaggle.com/madhurpant',
+    },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'Natural Language Processing',
+        // description: 'Sophisticated NLP models using Recurrent Neural Networks to address the crucial challenges of hate speech classification and public sentiment analysis.',
+        description: 'Advanced NLP models employing Recurrent Neural Networks to tackle the critical tasks of classifying hate speech and analyzing public sentiment.',
+        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
