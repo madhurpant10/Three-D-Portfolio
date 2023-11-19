@@ -1,9 +1,7 @@
 import { razorpay, fashinza } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -12,15 +10,12 @@ import {
     linkedin,
     nextjs,
     nodejs,
-    pricewise,
     python,
     java,
     mysql,
     react,
-    snapgram,
     summiz,
     tailwindcss,
-    threads,
     typescript,
     tensorflow,
     pytorch,
@@ -179,7 +174,6 @@ export const projects = [
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'Natural Language Processing',
-        // description: 'Sophisticated NLP models using Recurrent Neural Networks to address the crucial challenges of hate speech classification and public sentiment analysis.',
         description: 'Advanced NLP models employing Recurrent Neural Networks to tackle the critical tasks of classifying hate speech and analyzing public sentiment.',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
