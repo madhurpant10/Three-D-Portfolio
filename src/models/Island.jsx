@@ -67,45 +67,6 @@ const Island = ({isRotating, setIsRotating, setCurrentStage, ...props}) => {
       };
 
 
-
-//       let isAnimating = false;
-// let previousTimestamp = null;
-
-// const animateRotation = (timestamp) => {
-//   if (!previousTimestamp) {
-//     previousTimestamp = timestamp;
-//   }
-  
-//   const delta = timestamp - previousTimestamp;
-//   const rotationSpeed = 0.001; // Adjust this value as needed
-
-//   islandRef.current.rotation.y += rotationSpeed * delta;
-
-//   previousTimestamp = timestamp;
-
-//   if (isAnimating) {
-//     requestAnimationFrame(animateRotation);
-//   }
-// };
-
-// const handleKeyDown = (event) => {
-//   if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
-//     if (!isAnimating) {
-//       isAnimating = true;
-//       requestAnimationFrame(animateRotation);
-//     }
-//   }
-// };
-
-// const handleKeyUp = (event) => {
-//   if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
-//     isAnimating = false;
-//     previousTimestamp = null;
-//   }
-// };
-
-     
-
       useEffect(() => {
         const canvas = gl.domElement;
         canvas.addEventListener("pointerdown", handlePointerDown);

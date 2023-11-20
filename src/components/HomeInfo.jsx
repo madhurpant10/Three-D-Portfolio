@@ -18,7 +18,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-        Worked as a <br /> Business Analyst intern at Razorpay, <br /> Software Engineer intern at Fashinza.
+        Software Engineer adept in both Machine Learning <br /> and Front-end Web Development.
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
@@ -33,7 +33,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-        I am experienced in the fields of <br /> Machine Learning and Front-End Development.
+            Embarked on a multitude of projects, each offering <br /> unique challenges and invaluable lessons.
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>

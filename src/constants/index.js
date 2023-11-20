@@ -1,13 +1,10 @@
 import { razorpay, fashinza } from "../assets/images";
 import {
-    contact,
     css,
     express,
     git,
-    github,
     html,
     javascript,
-    linkedin,
     nextjs,
     nodejs,
     python,
@@ -127,24 +124,6 @@ export const experiences = [
             "Web Scraped the necessary data using Python and Selenium for analytical and Machine Learning applications.",
             "Improved the usability and user experience of the product's front-end through React.",
         ],
-    }
-];
-
-export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
-        name: 'GitHub',
-        iconUrl: github,
-        link: 'https://github.com/madhurpant10',
-    },
-    {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
     }
 ];
 

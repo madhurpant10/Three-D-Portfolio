@@ -6,12 +6,12 @@ import Sky from '../models/Sky'
 import Bird from '../models/Bird'
 import Plane from '../models/Plane'
 import HomeInfo from '../components/HomeInfo'
-import sakura from "../assets/sakura.mp3";
+import bg_music from "../assets/bg_music.mp3";
 import { soundoff, soundon } from "../assets/icons";
 
 const Home = () => {
-    const audioRef = useRef(new Audio(sakura));
-    audioRef.current.volume = 0.4;
+    const audioRef = useRef(new Audio(bg_music));
+    audioRef.current.volume = 0.5;
     audioRef.current.loop = true;
 
     const [isRotating, setIsRotating] = useState(false);
@@ -33,10 +33,10 @@ const Home = () => {
     
         if (window.innerWidth < 768) {
           screenScale = [0.9, 0.9, 0.9];
-          screenPosition = [0, -6.5, -43.4];
+          screenPosition = [0, -8.5, -44.4];
         } else {
           screenScale = [1, 1, 1];
-          screenPosition = [0, -6.5, -43.4];
+          screenPosition = [0, -8.5, -44.4];
         }
     
         return [screenScale, screenPosition];
