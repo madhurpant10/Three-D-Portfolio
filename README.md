@@ -1,8 +1,30 @@
-# React + Vite
+# 3D Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live demo
 
-Currently, two official plugins are available:
+[Open Live](https://madhurpant10.github.io/Three-D-Portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Main Technology Used
+
+- React
+- ThreeJS
+- Tailwindcss
+
+## Previews
+
+#### Home
+<img width="1470" alt="home-3d" src="https://github.com/madhurpant10/Three-D-Portfolio/assets/104094398/76a63925-eabb-4e53-ace1-827ed323f13e">
+
+
+#### About
+<img width="1470" alt="about-3d" src="https://github.com/madhurpant10/Three-D-Portfolio/assets/104094398/d36c7ff3-7eca-4709-91dc-7f9e1a66ab19">
+
+<img width="1470" alt="exp-3d" src="https://github.com/madhurpant10/Three-D-Portfolio/assets/104094398/b3375125-62e1-4220-ab90-f577eebacfb8">
+
+
+#### Projects
+<img width="1470" alt="projects-3d" src="https://github.com/madhurpant10/Three-D-Portfolio/assets/104094398/20f0def4-1a4e-4b3a-9afc-e96112e90cd4">
+
+#### Contact
+<img width="1470" alt="contact-3d" src="https://github.com/madhurpant10/Three-D-Portfolio/assets/104094398/b094f7bd-4f91-4131-a4c7-2daf57dc7c4d">
+
