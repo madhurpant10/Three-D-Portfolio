@@ -1,24 +1,16 @@
 import python from './python.svg'
-import java from './java.svg'
 import mysql from './mysql.svg'
 import tensorflow from './tensorflow.svg'
 import pytorch from './pytorch.svg'
-import css from './css.svg'
 import express from './express.svg'
 import git from './git.svg'
 import github from './github.svg'
-import html from './html.svg'
-import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
 import motion from './motion.svg'
 import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
-import redux from './redux.svg'
-import sass from './sass.svg'
-import tailwindcss from './tailwindcss.svg'
-import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
 import pricewise from './pricewise.svg'
@@ -32,29 +24,34 @@ import soundoff from './soundoff.png'
 import notion from './notion.svg'
 import fifa from './fifa.svg'
 import kaggle from './kaggle.svg'
+import aws from './aws.svg'
+import databricks from './Databricks.svg'
+import docker from './docker.svg'
+import snowflake from './snowflake.svg'
+import tableau from './tableau.svg'
+import looker from './looker.svg'
+import langchain from './langchain.svg'
+import jupyter from './jupyter.svg'
+import claude from './claude.svg'
+import pinecone from './pinecone.svg'
+import huggingface from './hugging-face.svg'
+import pyspark from './pyspark.svg'
+import fastapi from './fast-api.svg'
 
 export {
     python,
-    java,
     mysql,
     tensorflow,
     pytorch,
-    css,
     express,
     git,
     github,
-    html,
-    javascript,
     mongodb,
     motion,
     mui,
     nextjs,
     nodejs,
     react,
-    redux,
-    sass,
-    tailwindcss,
-    typescript,
     linkedin,
     twitter,
     pricewise,
@@ -67,5 +64,18 @@ export {
     soundoff,
     notion,
     fifa,
-    kaggle
+    kaggle,
+    aws,
+    databricks,
+    docker,
+    snowflake,
+    tableau,
+    looker,
+    langchain,
+    jupyter,
+    claude,
+    pinecone,
+    huggingface,
+    pyspark,
+    fastapi
 }

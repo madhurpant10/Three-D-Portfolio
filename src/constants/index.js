@@ -1,24 +1,31 @@
-import { razorpay, fashinza } from "../assets/images";
+import { razorpay, fashinza, expedia } from "../assets/images";
 import {
-    css,
     express,
     git,
-    html,
-    javascript,
     nextjs,
     nodejs,
     python,
-    java,
     mysql,
     react,
     summiz,
-    tailwindcss,
-    typescript,
     tensorflow,
     pytorch,
     notion,
     fifa,
-    kaggle
+    kaggle,
+    aws,
+    databricks,
+    docker,
+    snowflake,
+    tableau,
+    looker,
+    langchain,
+    jupyter,
+    claude,
+    pinecone,
+    huggingface,
+    pyspark,
+    fastapi
 } from "../assets/icons";
 
 export const skills = [
@@ -38,19 +45,69 @@ export const skills = [
         type: "ML",
     },
     {
-        imageUrl: java,
-        name: "Java",
-        type: "Backend",
-    },
-    {
         imageUrl: mysql,
         name: "MySql",
         type: "Database",
     },
     {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: databricks,
+        name: "Databricks",
+        type: "Data Engineering",
+    },
+    {
+        imageUrl: snowflake,
+        name: "Snowflake",
+        type: "Data Engineering",
+    },
+    {
+        imageUrl: aws,
+        name: "AWS",
+        type: "Cloud",
+    },
+    {
+        imageUrl: tableau,
+        name: "Tableau",
+        type: "Analytics",
+    },
+    {
+        imageUrl: looker,
+        name: "Looker",
+        type: "Analytics",
+    },
+    {
+        imageUrl: langchain,
+        name: "LangChain",
+        type: "AI/LLM",
+    },
+    {
+        imageUrl: fastapi,
+        name: "FastAPI",
         type: "Backend",
+    },
+    {
+        imageUrl: pyspark,
+        name: "PySpark",
+        type: "Data Engineering",
+    },
+    {
+        imageUrl: huggingface,
+        name: "HuggingFace",
+        type: "AI/LLM",
+    },
+    {
+        imageUrl: pinecone,
+        name: "Pinecone",
+        type: "AI/LLM",
+    },
+    {
+        imageUrl: jupyter,
+        name: "Jupyter",
+        type: "Tools",
+    },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "DevOps",
     },
     {
         imageUrl: git,
@@ -58,48 +115,54 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node",
-        type: "Backend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind",
-        type: "Frontend",
+        imageUrl: claude,
+        name: "Claude",
+        type: "AI/LLM",
     }
 ];
 
 export const experiences = [
+    {
+        title: "Senior Business Intelligence Analyst",
+        company_name: "Expedia Group",
+        icon: expedia,
+        iconBg: "#eeeeee",
+        iconSize: "w-[100%] h-[100%]",
+        date: "September 2025 - Present",
+        points: [
+            "Built an internal NLP pipeline to analyze large-scale partner conversations using topic modeling, sentiment analysis, and pattern extraction, enabling scalable text analytics across the partner ecosystem.",
+            "Architected a vector embedding pipeline to semantically index partner conversation data, enabling LLM-powered querying and insight generation to surface actionable patterns and trends at scale.",
+            "Built 'Vector', an internal AI analytics platform that automates end-to-end dashboard creation and insight generation, significantly reducing manual effort and turnaround time.",
+            "Leading development of an AI agent workflow to automate end-to-end analytics, handling the full project lifecycle from prototyping to a production-serving solution using RAG-based retrieval and LLMs.",
+        ],
+    },
+    {
+        title: "Business Analyst",
+        company_name: "Razorpay",
+        icon: razorpay,
+        iconBg: "#acdbf1",
+        date: "February 2024 - August 2025",
+        points: [
+            "Analyzed payment transaction data for 200+ top-tier merchants, conducting A/B testing and statistical inference on payment flow configurations to detect anomalous patterns and optimize success rates, achieving a 4–12% improvement.",
+            "Collaborated cross-functionally with product, engineering, and merchant teams to identify fraud signals, model payment lifecycle bottlenecks, and deliver data-driven recommendations at scale.",
+            "Utilized Python, SQL, Snowflake, and Tableau to build ETL pipelines, analyze data trends, and create visual reports, enhancing stakeholder decision-making processes.",
+            "Built RazorSense using Python, a Chrome extension that enhances Freshdesk productivity by analyzing ticket context, scoring reply quality, and suggesting AI-powered responses.",
+        ],
+    },
+    {
+        title: "Machine Learning Intern",
+        company_name: "Fashinza",
+        icon: fashinza,
+        iconBg: "#ffc3bc",
+        iconSize: "w-[75%] h-[75%]",
+        date: "March 2023 - September 2023",
+        points: [
+            "Applied advanced computer vision and deep learning techniques involving semantic segmentation to segment and extract key features of the product.",
+            "Implemented a scalable and efficient recommender engine integrated with AWS cloud services for real time recommendations.",
+            "Web Scraped the necessary data using Python and Selenium for analytical and Machine Learning applications.",
+            "Improved the usability and user experience of the product's front-end through React.",
+        ],
+    },
     {
         title: "Business Analyst Intern",
         company_name: "Razorpay",
@@ -110,19 +173,6 @@ export const experiences = [
             "Proficiently handling large-scale databases, extracting valuable insights through data analysis.",
             "Conducted an in-depth analysis to identify the factors contributing to transaction failures, resulting in an increase in success rate.",
             "Implemented a predictive Machine Learning model to forecast the success rate of transactions."
-        ],
-    },
-    {
-        title: "Software Engineer Intern",
-        company_name: "Fashinza",
-        icon: fashinza,
-        iconBg: "#ffc3bc",
-        date: "March 2023 - September 2023",
-        points: [
-            "Applied advanced computer vision and deep learning techniques involving semantic segmentation to segment and extract key features of the product.",
-            "Implemented a scalable and efficient recommender engine integrated with AWS cloud services for real time recommendations.",
-            "Web Scraped the necessary data using Python and Selenium for analytical and Machine Learning applications.",
-            "Improved the usability and user experience of the product's front-end through React.",
         ],
     }
 ];

@@ -19,9 +19,9 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer adept in both Machine Learning and Front-end Web Development.
+          Data Scientist building AI-native systems using ML, LLMs, and agent-based architectures.
             <br />
-          I am a creative and versatile individual always looking for new ways to improve my skills and knowledge.
+          Designing scalable pipelines to process, model, and operationalize complex structured and unstructured data.
         </p>
       </div>
 
@@ -49,8 +49,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I bring 8 months of professional expertise in roles spanning Business Analysis, Machine Learning Engineering
-             and Software Engineering, showcasing a diverse skill set across multiple domains.
+            Experience across Machine Learning Engineering, Data Analytics, and Applied AI, building systems that automate analytical workflows and generate actionable outputs from unstructured data at scale.
           </p>
         </div>
 
@@ -66,7 +65,7 @@ const About = () => {
                     <img
                       src={experience.icon}
                       alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
+                      className={`${experience.iconSize || 'w-[60%] h-[60%]'} object-contain`}
                     />
                   </div>
                 }
